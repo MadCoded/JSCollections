@@ -1,0 +1,16 @@
+{
+  "name": "JSCollections",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "LinkedList": "./node_modules/.bin/webpack collections/LinkedList.js LinkedList.js --progress --colors",
+    "LinkedList.test": "./node_modules/.bin/webpack test/LinkedList.test.js LinkedList.test.js --progress --colors && node LinkedList.test.js"
+  },
+  "author": "MadCoded",
+  "license": "BSD 3-Clause",
+  "devDependencies": {
+    "webpack": "^3.1.0"
+  }
+}
