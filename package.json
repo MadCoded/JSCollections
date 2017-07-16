@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "LinkedList": "./node_modules/.bin/webpack collections/LinkedList.js LinkedList.js --progress --colors",
-    "LinkedList.test": "./node_modules/.bin/webpack test/LinkedList.test.js LinkedList.test.js --progress --colors && node LinkedList.test.js"
+    "LinkedList.test": "./node_modules/.bin/webpack test/LinkedList.test.js LinkedList.test.js --progress --colors && node LinkedList.test.js",
+    "Stack": "./node_modules/.bin/webpack collections/Stack.js Stack.js --progress --colors",
+    "Stack.test": "./node_modules/.bin/webpack test/Stack.test.js Stack.test.js --progress --colors && node Stack.test.js",
+    "Queue": "./node_modules/.bin/webpack collections/Queue.js Queue.js --progress --colors",
+    "Queue.test": "./node_modules/.bin/webpack test/Queue.test.js Queue.test.js --progress --colors && node Queue.test.js"
   },
   "author": "MadCoded",
   "license": "BSD 3-Clause",
