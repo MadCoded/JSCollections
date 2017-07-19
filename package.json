@@ -10,7 +10,9 @@
     "Stack": "./node_modules/.bin/webpack collections/Stack.js Stack.js --progress --colors",
     "Stack.test": "./node_modules/.bin/webpack test/Stack.test.js Stack.test.js --progress --colors && node Stack.test.js",
     "Queue": "./node_modules/.bin/webpack collections/Queue.js Queue.js --progress --colors",
-    "Queue.test": "./node_modules/.bin/webpack test/Queue.test.js Queue.test.js --progress --colors && node Queue.test.js"
+    "Queue.test": "./node_modules/.bin/webpack test/Queue.test.js Queue.test.js --progress --colors && node Queue.test.js",
+    "PriorityQueue": "./node_modules/.bin/webpack collections/PriorityQueue.js PriorityQueue.js --progress --colors",
+    "PriorityQueue.test": "./node_modules/.bin/webpack test/PriorityQueue.test.js PriorityQueue.test.js --progress --colors && node PriorityQueue.test.js"
   },
   "author": "MadCoded",
   "license": "BSD 3-Clause",
